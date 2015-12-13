@@ -1,0 +1,32 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+
+gems: [jekyll-paginate]
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: YukiAsano
+
+description: Stylish Jekyll Theme
+author:
+  name: YukiAsano
+  email: yuuki.1224.softtennis@gmail.com
+  github: yuuki1224
+  twitter: yuuki1224st
+  pinterest: asd123
+  linkedin: yuki-asano
+  bio: Hi, My name is Yuki :)
+  email_md5: 726351295ec82e145928582f595aa3aa
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+
+BASE_PATH:
